@@ -33,7 +33,7 @@ const Loginpage = () => {
             />
           </div>
           <Button colorScheme="facebook" mt={5} w="full">
-            Login
+            <NavLink to="/beranda">Login</NavLink>
           </Button>
           <p className="mt-2 text-center">
             Belum punya akun?{" "}
