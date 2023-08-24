@@ -1,0 +1,51 @@
+export const kost__antang = [
+  {
+    img: "https://www.pajak.com/storage/2022/08/indekos-758x490.png",
+    title: "putri",
+    host: "Kost Wandi.S.kom",
+    price: "600.000",
+    rate: "4.0",
+  },
+  {
+    img: "https://cdn.linkumkm.id/library/6/1/8/8/5/61885_840x576.jpeg",
+    title: "putri",
+    host: "Kost Wandi.S.kom",
+    price: "600.000",
+    rate: "4.0",
+  },
+  {
+    img: "https://cdn1-production-images-kly.akamaized.net/0q-sddESXGDpLdVz4IXelsZAW24=/1200x1200/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/861628/original/073424800_1429960385-3.JPG",
+    title: "putri",
+    host: "Kost Wandi.S.kom",
+    price: "600.000",
+    rate: "4.0",
+  },
+  {
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6dTKgf6eEzY20wsjbowMkR_62Sab46fyAZVhPGU4tWkQiDCC1ctO57tWAfzOSlOZUvL0&usqp=CAU",
+    title: "putri",
+    host: "Kost Wandi.S.kom",
+    price: "600.000",
+    rate: "4.0",
+  },
+  {
+    img: "https://cdn1.katadata.co.id/media/images/thumb/2019/10/17/2019_10_17-11_04_43_b9ae64f66fbf0ac902ffbb274781d73c_620x413_thumb.jpg",
+    title: "putri",
+    host: "Kost Wandi.S.kom",
+    price: "600.000",
+    rate: "4.0",
+  },
+  {
+    img: "https://www.pajak.com/storage/2022/08/indekos-758x490.png",
+    title: "putri",
+    host: "Kost Wandi.S.kom",
+    price: "600.000",
+    rate: "4.0",
+  },
+  {
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvY2B5woa6R_IjEVdUx2o-gKEytHfjkvEwnHuLBfoCGuzx-Ey4VBPk1ZC_UfE_jA6omRA&usqp=CAU",
+    title: "putri",
+    host: "Kost Wandi.S.kom",
+    price: "600.000",
+    rate: "4.0",
+  },
+];
