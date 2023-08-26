@@ -1,6 +1,8 @@
 import React from "react";
 import Layout from "../layout/Layout";
 import { kost__antang } from "../api/datakost__antang";
+import { NavLink } from "react-router-dom";
+import { AiTwotoneStar } from "react-icons/ai";
 
 const Berandapage = () => {
   // console.table(kost__antang);
@@ -11,7 +13,11 @@ const Berandapage = () => {
         <p className="text-3xl font-semibold my-4">Kost Daerah Antang</p>
         <div className="grid lg:grid-cols-4 grid-cols-1 gap-4">
           {kost__antang.map((kost, index) => (
-            <div className="border-2 rounded-lg">
+            <NavLink
+              key={index}
+              to={`/detail/${kost.id}`}
+              className="border-2 rounded-lg"
+            >
               <img
                 src={kost.img}
                 alt=""
@@ -21,9 +27,12 @@ const Berandapage = () => {
                 <p className="font-bold">{kost.title}</p>
                 <p>{kost.host}</p>
                 <p className="font-semibold">Harga - {kost.price} / Bulan</p>
-                <p>{kost.rate} update hari ini</p>
+                <div className="flex items-center space-x-2">
+                  <AiTwotoneStar className="text-2xl text-yellow-400" />
+                  <p>{kost.rate} Update hari ini</p>
+                </div>
               </div>
-            </div>
+            </NavLink>
           ))}
         </div>
       </div>

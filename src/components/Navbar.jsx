@@ -58,7 +58,7 @@ const Navbar = () => {
             <div className="hidden sm:ml-6 sm:block lg:flex lg:items-center">
               <div className="flex space-x-4">
                 <NavLink
-                  to="/home"
+                  to="/beranda"
                   className={({ isActive, isPending }) =>
                     isPending
                       ? ""
